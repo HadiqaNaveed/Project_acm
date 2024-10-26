@@ -31,6 +31,9 @@ const NavBar = () => {
     panel.classList.toggle('translate-x-full');
   };
 
+
+  
+
   return (
     <>
 

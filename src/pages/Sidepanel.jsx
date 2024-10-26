@@ -192,6 +192,9 @@ const Sidepanel = () => {
             <p className="text-sm">GitHub Docs</p>
 
           </div>
+
+
+          
           
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 

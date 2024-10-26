@@ -143,6 +143,9 @@ const Home = () => {
           </div>
 
 
+
+
+
         </div>
         <div className="bg-black  h-[1494px] w-96">
           <div className="border-gray-600 bg-gray-900 border h-[527px] p-4 rounded-md w-[307px] ml-1 mt-5">

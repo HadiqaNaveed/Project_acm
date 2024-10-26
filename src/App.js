@@ -11,6 +11,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/navbar" element={<NavBar />} />
        
+
+
+
+       
       </Routes>
     </BrowserRouter>
   );
