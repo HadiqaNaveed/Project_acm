@@ -34,7 +34,7 @@ const Sidepanel = () => {
             <b><div className="text-slate-100 text-sm mt-2 ml-2 ">HadiqaNaveed</div></b>
 
             <button
-              className=" text-slate-300 hover:bg-gray-600 hover:text-white font-bold py-2 px-2 rounded ml-20" onClick={toggleRightPanel}
+              className=" text-slate-300 hover:bg-gray-600 hover:text-white font-bold py-2 px-2 rounded ml-16" onClick={toggleRightPanel}
             >
               <GoArrowSwitch />
             </button>
@@ -194,7 +194,7 @@ const Sidepanel = () => {
           </div>
 
 
-          
+
           
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 

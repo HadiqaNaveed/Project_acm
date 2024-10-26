@@ -135,7 +135,7 @@ const Home = () => {
                 <a className=" font-extralight pl-4 hover:underline hover:text-sky-600 " href="http://">Manage cookies</a>
 
               </div>
-              <div className="text-xs text-gray-400 pt-3 pl-10 h-[82px] bg-black hover:underline">
+              <div className="text-xs text-gray-400 pt-3 pl-10 h-[134px] bg-black hover:underline">
                 <a className=" font-extralight pl-5 hover:underline hover:text-sky-600 " href="http://">Donot share my personal information</a>
               </div>
             </div>
