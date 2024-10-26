@@ -3,16 +3,13 @@ import { GoRepo } from "react-icons/go";
 import { GoFilter } from "react-icons/go";
 import { GoCode } from "react-icons/go";
 import { GoKebabHorizontal } from "react-icons/go";
-import { GoTools } from "react-icons/go";
-import { GoMortarBoard } from "react-icons/go";
+
+
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
 import { IoLogoGithub } from "react-icons/io5";
-import { FaGithub } from "react-icons/fa";
-import { GoCopilot } from "react-icons/go";
-import { GoGitPullRequest } from "react-icons/go";
-import { GoGraph } from "react-icons/go";
+
 import { GoStar } from "react-icons/go";
-import { GoTriangleDown } from "react-icons/go";
+
 import { GoDotFill } from "react-icons/go";
 import Home2 from './Home2';
 import Home3 from './Home3';

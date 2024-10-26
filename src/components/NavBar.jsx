@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoLogoGithub } from "react-icons/io5";
-import { GoArrowSwitch } from "react-icons/go";
+
 import { GoHome } from "react-icons/go";
 import { GoIssueOpened } from "react-icons/go";
 import { GoGitPullRequest } from "react-icons/go";
@@ -16,9 +16,7 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai";
 import { GoPlus } from "react-icons/go";
 import { FaCaretDown } from "react-icons/fa";
 import { PiNotificationLight } from "react-icons/pi";
-import { GoSmiley } from "react-icons/go";
-import { GoPerson } from "react-icons/go";
-import { GoCopilot } from "react-icons/go";
+
 import Sidepanel from '../pages/Sidepanel';
 
 

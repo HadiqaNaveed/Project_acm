@@ -1,13 +1,23 @@
 
 import React from 'react'
-
+import { GoStar } from "react-icons/go";
 import { GoArrowSwitch } from "react-icons/go";
-
+import { GoRepo } from "react-icons/go";
 import { GoX } from "react-icons/go";
-
+import { GoProject } from "react-icons/go";
 import { GoSmiley } from "react-icons/go";
 import { GoPerson } from "react-icons/go";
 import { GoCopilot } from "react-icons/go";
+import { GoCodeSquare } from "react-icons/go";
+import { GoOrganization } from "react-icons/go";
+import { GoGlobe } from "react-icons/go";
+import { GoHeart } from "react-icons/go";
+import { GoUpload } from "react-icons/go";
+import { GoBeaker } from "react-icons/go";
+import { GoGear } from "react-icons/go";
+import { GoBook } from "react-icons/go";
+import { GoDiscussionClosed } from "react-icons/go";
+import { GoPeople } from "react-icons/go";
 const toggleRightPanel = () => {
     const panel = document.getElementById('right-panel');
     panel.classList.toggle('translate-x-full');
@@ -57,20 +67,12 @@ const Sidepanel = () => {
 
           </div>
           
-          <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
-
-            <div className=" text-slate-400 p-2">
-            <GoPerson />
-
-            </div>
-            <p className="text-sm">Your projects</p>
-
-          </div>
+          
           
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoRepo />
 
             </div>
             <p className="text-sm">Your repositories</p>
@@ -87,11 +89,20 @@ const Sidepanel = () => {
             <p className="text-sm">Your Copilot</p>
 
           </div>
+          <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
+
+            <div className=" text-slate-400 p-2">
+            <GoProject />
+
+            </div>
+            <p className="text-sm">Your projects</p>
+
+          </div>
           
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoStar />
 
             </div>
             <p className="text-sm">Your stars</p>
@@ -101,7 +112,7 @@ const Sidepanel = () => {
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoCodeSquare />
 
             </div>
             <p className="text-sm">Your gists</p>
@@ -111,7 +122,7 @@ const Sidepanel = () => {
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoOrganization />
 
             </div>
             <p className="text-sm">Your organizations </p>
@@ -121,7 +132,7 @@ const Sidepanel = () => {
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoGlobe />
 
             </div>
             <p className="text-sm">Your enterprises</p>
@@ -131,7 +142,7 @@ const Sidepanel = () => {
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoHeart />
 
             </div>
             <p className="text-sm">Your sponsers</p>
@@ -145,7 +156,7 @@ const Sidepanel = () => {
           <div className="flex  items-center mt-2 text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoUpload />
 
             </div>
             <p className="text-sm">Try enterprise</p>
@@ -155,7 +166,7 @@ const Sidepanel = () => {
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoBeaker />
 
             </div>
             <p className="text-sm">Feature preview</p>
@@ -165,7 +176,7 @@ const Sidepanel = () => {
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoGear />
 
             </div>
             <p className="text-sm">Settings</p>
@@ -175,7 +186,7 @@ const Sidepanel = () => {
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoBook />
 
             </div>
             <p className="text-sm">GitHub Docs</p>
@@ -185,7 +196,7 @@ const Sidepanel = () => {
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoPeople />
 
             </div>
             <p className="text-sm">Github Support</p>
@@ -195,7 +206,7 @@ const Sidepanel = () => {
           <div className="flex  items-center  text-white  hover:bg-slate-800 rounded ">
 
             <div className=" text-slate-400 p-2">
-            <GoPerson />
+            <GoDiscussionClosed />
 
             </div>
             <p className="text-sm">Github Community</p>
